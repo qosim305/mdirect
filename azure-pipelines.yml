@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool: computeragen1
-  vmImage: ubuntu-latest
+pool: 'computeragen1'
 
 steps:
 - task: Maven@3
